@@ -1,5 +1,5 @@
 # Iris model Kubernetes tutorial
-# Docker Image Building, Tagging and Uploading to Hub
+## Docker Image Building, Tagging and Uploading to Hub
 
 - docker build -t iris-fastapi-service:v1 .
 
@@ -7,7 +7,7 @@
 
 - docker push <dockerhub-username>/iris-fastapi-service:v1
 
-# Kubectl command for Deployment
+## Kubectl command for Deployment
 
 - kubectl create deployment iris-fastapi-service --image=sachin004/iris-fastapi-service:v1 --port=80  
 
